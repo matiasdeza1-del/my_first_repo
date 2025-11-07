@@ -1,7 +1,0 @@
-#!/home/matia/UTDT/Modulo_4/MLOps/pruebasGit/my_first_repo/.tp_env/bin/python3
-import sys
-from fontTools.ttx import main
-if __name__ == '__main__':
-    if sys.argv[0].endswith('.exe'):
-        sys.argv[0] = sys.argv[0][:-4]
-    sys.exit(main())
